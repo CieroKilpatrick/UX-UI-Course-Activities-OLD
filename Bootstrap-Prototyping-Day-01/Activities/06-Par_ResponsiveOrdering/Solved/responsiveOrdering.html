@@ -1,0 +1,118 @@
+<!-- Ordering Responsive Layouts -->
+<!-- Goal: Create responsive layouts in nested grids and re-order content for different screen sizes. -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Nested Responsive Grids</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</head>
+
+<!-- Styling -->
+<style>
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+</style>
+
+<body>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center align-items-center">
+    <h1 class="display-3">The News</h1>
+  </div>
+
+  <!-- Main Content Container -->
+  <div class="container-fluid">
+
+    <!-- Outermost Row -->
+    <div class="row">
+
+      <!-- Articles of Lesser Importance -->
+      <div class="order-2 order-md-1 col-md-4  col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <h3>Less Important Article 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita aliquid voluptatem fuga
+              et, recusandae accusantium minus fugit adipisci! Obcaecati id, nobis ullam natus laudantium
+              omnis architecto unde rem qui debitis?</p>
+            <hr>
+          </div>
+          <div class="col-12">
+            <h3>Less Important Article 2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita aliquid voluptatem fuga
+              et, recusandae accusantium minus fugit adipisci! Obcaecati id, nobis ullam natus laudantium
+              omnis architecto unde rem qui debitis?</p>
+            <hr>
+          </div>
+          <div class="col-12">
+            <h3>Less Important Article 3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita aliquid voluptatem fuga
+              et, recusandae accusantium minus fugit adipisci! Obcaecati id, nobis ullam natus laudantium
+              omnis architecto unde rem qui debitis?</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Headlines -->
+      <div class="order-1 order-md-2 col-md-8  col-lg-6">
+        <div class="row">
+          <div class="col-12">
+            <img src="http://via.placeholder.com/600x275" alt="">
+            <h3>Main Headline 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, inventore modi. Itaque possimus
+              praesentium tenetur sequi aperiam eligendi, voluptates eius esse excepturi id molestias
+              iusto ex obcaecati nulla doloremque nobis?</p>
+            <hr>
+          </div>
+          <div class="col-12">
+            <img src="http://via.placeholder.com/600x275" alt="">
+            <h3>Main Headline 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, inventore modi. Itaque possimus
+              praesentium tenetur sequi aperiam eligendi, voluptates eius esse excepturi id molestias
+              iusto ex obcaecati nulla doloremque nobis?</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <!-- Images of the Week -->
+      <div class="order-3 col-lg-3">
+        <div class="card">
+          <div class="card-title">
+            <h3 class="text-center">Images of the Week</h3>
+          </div>
+          <div class="row">
+            <div class="col-6 col-md-3 col-lg-12 mb-1">
+              <img src="http://via.placeholder.com/200x200" alt="">
+            </div>
+            <div class="col-6 col-md-3 col-lg-12 mb-1">
+              <img src="http://via.placeholder.com/200x200" alt="">
+            </div>
+            <div class="col-6 col-md-3 col-lg-12 mb-1">
+              <img src="http://via.placeholder.com/200x200" alt="">
+            </div>
+            <div class="col-6 col-md-3 col-lg-12 mb-1">
+              <img src="http://via.placeholder.com/200x200" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

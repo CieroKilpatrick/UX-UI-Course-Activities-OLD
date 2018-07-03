@@ -1,0 +1,39 @@
+nav{
+    background-color: black;
+    padding: 1rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.card{
+    border-radius: 0;
+}
+
+.list-group-item p{
+    margin-bottom: 0;
+}
+
+.top-story-img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+
+.main-story{
+    background-color: darkgray;
+}
+
+.card-img-top{
+    border-radius: 0;
+}
+
+.ranking-image{
+    width: 95%;
+    height: auto;
+}
+
+
+
