@@ -1,0 +1,73 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Add styling to recreate the layout on the screen */
+
+section::after {
+}
+
+#sidebar {
+  float: left;
+  padding: 20px;
+  width: 20%;
+  height: 300px;
+  background: #eee;
+}
+
+#largeContent {
+
+padding: 20px;
+float: left;
+width: 80%;
+height:300px;
+color:fff;
+background: turquoise;
+}
+
+#left {
+  padding: 20px;
+  float: left;
+  height: 400px;
+  width: 30%;
+  color: #fff;
+  background: #888;
+}
+
+#middle {
+  padding: 20px;
+  float: left;
+  height: 400px;
+  width: 30%;
+  color: #fff;
+  background: #ddd;
+}
+
+
+#right {
+}
+
+footer {
+}

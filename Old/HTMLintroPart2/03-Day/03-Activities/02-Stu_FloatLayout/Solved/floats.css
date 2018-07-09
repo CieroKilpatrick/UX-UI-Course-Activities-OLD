@@ -1,0 +1,83 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Roboto, sans-serif;
+}
+
+/* Begin Solution */
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#sidebar {
+  padding: 20px;
+  float: left;
+  width: 20%;
+  height: 300px;
+  background: #eee;
+}
+
+#largeContent {
+  padding: 20px;
+  float: left;
+  width: 80%;
+  height: 300px;
+  color: #fff;
+  background-color: #6ea3da;
+}
+
+#left {
+  padding: 20px;
+  float: left;
+  height: 400px;
+  width: 30%;
+  color: #fff;
+  background: #666;
+}
+
+#middle {
+  padding: 20px;
+  float: left;
+  height: 400px;
+  width: 30%;
+  color: #fff;
+  background: #888;
+}
+
+#right {
+  padding: 20px;
+  float: left;
+  height: 400px;
+  width: 40%;
+  color: #fff;
+  background: #666;
+}
+
+footer {
+  padding: 20px;
+  clear: both;
+  background: #ccc;
+}
