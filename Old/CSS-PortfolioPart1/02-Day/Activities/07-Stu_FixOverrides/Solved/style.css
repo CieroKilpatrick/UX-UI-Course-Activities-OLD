@@ -1,0 +1,16 @@
+.jumbotron p{
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+.btn{
+    color: turquoise;
+    background-color: slategray;
+}
+
+/* Bonus */
+.btn:hover{
+    color: white;
+    background-color: darkturquoise;
+    box-shadow: 0 0 2px 2px black;
+}

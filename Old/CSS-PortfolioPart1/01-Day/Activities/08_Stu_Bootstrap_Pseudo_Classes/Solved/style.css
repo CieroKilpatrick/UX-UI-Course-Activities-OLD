@@ -1,0 +1,39 @@
+.btn {
+  background-color: aqua;
+  color: antiquewhite;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid seashell;
+}
+
+.btn:link{
+  background-color: burlywood;
+  color: grey;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid seashell;
+}
+
+.btn:hover{
+  background-color: royalblue;
+  color: antiquewhite;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid seashell;
+}
+
+.btn:visited{
+  background-color: khaki;
+  color: antiquewhite;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid seashell;
+}
+
+.btn:active{
+  background-color: violet;
+  color: antiquewhite;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid seashell;
+}
