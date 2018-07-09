@@ -1,0 +1,61 @@
+img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+h6{
+  margin-bottom: 0;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.border-top{
+  margin-top: 1rem;
+  border-top: 0.05rem solid gainsboro;
+  padding-top: 1rem;
+}
+
+.thick-border-top{
+  margin-top: 1rem;
+  border-top: 0.2rem solid black;
+  padding-top: 1rem;
+}
+
+.ads{
+  border-radius: 0rem;
+  height: 100%;
+  width: 100%;
+  background-color: navy;
+  color: orange;
+}
+
+#categories a{
+  color: black;
+}
+
+.large-ad{
+  height: 350px;
+}
+
+.bottom-border{
+  padding-bottom: 1rem;
+  border-bottom: 0.05rem solid gainsboro;
+  margin-bottom: 1rem;
+}
+
+.right-border{
+  border-right: 0.05rem solid gainsboro;
+}
+
+.col-1-articles{
+  margin-right: 0.5rem;
+}
+
+.col-3-articles{
+  margin-left: 0.5rem;
+}
+
+

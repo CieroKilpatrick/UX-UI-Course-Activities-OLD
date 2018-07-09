@@ -1,0 +1,21 @@
+/* 
+UX Daily Challenge SOLUTION: Custom Alerts
+Goal: Practice customizing bootstrap components. 
+*/
+
+.alert-custom{
+    background-color: lightsteelblue;
+    border-color: slategray;
+    border-width: 1px;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    font-family: Impact;
+    display: inline-block;
+    font-size: 16pt;
+}
+
+.alert-link:hover{
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px  black;
+    text-decoration: none;
+}
