@@ -1,0 +1,105 @@
+<!-- Style Tag Exercise: Explore ways to style css in the head. The goal is to practice writing new HTML tags and styling them with css properties: try: color, font-style, text-decoration, text-transform, width, and many others. -->
+
+<html>
+
+  <head>
+
+    <title>Internal CSS Activity</title>
+
+    <style>
+
+      /* Make all h2 italicized */
+      h2 {
+        font-style: italic;
+      }
+
+      /* Underline all paragraphs */
+      p {
+        text-decoration: underline;
+      }
+
+      /* Make the table the full width of the window */
+      table {
+        width: 100%;
+        border: 1px solid black;
+      }
+
+      /*
+        Make the column headers uppercase, bold, black background with white text
+        Add a border to the headers
+      */
+      th {
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: 1px solid black;
+      }
+
+      /*
+        Center the text within each cell
+        Add a border to the
+      */
+      td{
+        text-align: center;
+        border: 1px solid black;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div>
+      <h2>Make Me Italicized!</h2>
+      <p>Make me underlined!</p>
+    </div>
+
+  <!-- BONUS -->
+
+    <!-- This starts our table -->
+    <table>
+
+      <!-- This starts the first row of the table  -->
+      <tr>
+
+        <!-- These are our column headers -->
+        <th>Films</th>
+        <th>Foods</th>
+        <th>Books</th>
+      </tr>
+
+      <!-- This starts the second row of the table -->
+      <tr>
+
+        <!-- These tags contain the data within each cell of the table -->
+        <td>Bladerunner</td>
+        <td>Popcorn</td>
+        <td>The Two Towers</td>
+      </tr>
+
+      <!-- Third row -->
+      <tr>
+        <td>Black Swan</td>
+        <td>Beets</td>
+        <td>The Orphan's Tale</td>
+      </tr>
+
+      <!-- Fourth row -->
+      <tr>
+        <td>The Dark Knight</td>
+        <td>Sushi</td>
+        <td>A Day in the Life of Marlon Bundo</td>
+      </tr>
+
+      <!-- Fifth row -->
+      <tr>
+        <td>Spirited Away</td>
+        <td>Cheese</td>
+        <td>Mistborn</td>
+      </tr>
+    </table>
+
+  </body>
+
+</html>

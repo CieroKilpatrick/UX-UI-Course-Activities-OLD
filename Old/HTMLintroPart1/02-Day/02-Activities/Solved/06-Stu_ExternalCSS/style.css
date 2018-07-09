@@ -1,0 +1,30 @@
+/* This is where our CSS magic happens */
+
+/* All h1 elements will be 60px */
+h1 {
+  font-size: 60px;
+}
+
+/* All paragraphs will be red and in Helvetica */
+p {
+  font-family: "Helvetica";
+  color: red;
+}
+
+/* BONUS */
+
+/* Add rounded corners, a background color, and a border to our input boxes */
+input {
+  width: 300px;
+  height: 30px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+/* Add a background color and margin to our button. Removes border. */
+button {
+  background-color: lightgreen;
+  border: none;
+  margin-top: 10px;
+}

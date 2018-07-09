@@ -1,0 +1,68 @@
+/* Change to border-box sizing */
+
+* {
+  box-sizing: border-box;
+}
+
+/* General font and sizing */
+
+body {
+  background-color: #ededed;
+  color: #363636;
+  font-size: 16px;
+  margin: 0px;
+}
+
+/* Container to hold all content */
+
+.container {
+  background: #fff;
+  margin: 80px auto 15px auto;
+  padding: 15px;
+  width: 1000px;
+  height: 600px;
+}
+
+/* Change header font */
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+}
+
+h1 span,
+h2 {
+  color: #ff8598;
+}
+
+h2::before {
+  content: "// ";
+}
+
+/* Undo default list styling */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Contact list */
+
+li {
+  margin-bottom: 30px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+p {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

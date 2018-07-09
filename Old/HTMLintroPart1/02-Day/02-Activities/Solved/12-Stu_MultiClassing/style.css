@@ -1,0 +1,14 @@
+.Rogue {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.Warrior {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Mage {
+  color: blue;
+  font-family: Cursive;
+}

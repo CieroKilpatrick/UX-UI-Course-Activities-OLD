@@ -1,0 +1,20 @@
+.bold {
+  font-weight: 700;
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+.magicky {
+  font-style: italic;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+.under {
+  font-size: 10px;
+  color: brown;
+}
